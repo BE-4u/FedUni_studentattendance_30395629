@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">FedUni_StudentAttendance_30395629</string>
-    <string name="administrators">Administrators</string>
+    <string name="app_name">FedUniStudentAttendance30395629</string>
+    <string name="administrators">Administrator</string>
     <string name="teacher">Teacher</string>
     <string name="student">Student</string>
     <string name="please_add_an_account">Please add an account</string>
