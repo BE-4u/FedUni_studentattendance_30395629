@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">FedUni_StudentAttendance_30395629</string>
+<!--    <string name="administrators">管理员</string>-->
+<!--    <string name="teacher">教师</string>-->
+<!--    <string name="student">学生</string>-->
+<!--    <string name="please_add_an_account">请添加帐户</string>-->
+<!--    <string name="please_add_a_password">请添加密码</string>-->
+<!--    <string name="please_enter_the_student_id">请输入学生ID</string>-->
+<!--    <string name="add_user">添加用户</string>-->
+<!--    <string name="please_enter_an_account">请输入帐户</string>-->
+<!--    <string name="please_enter_the_password">请输入密码</string>-->
+<!--    <string name="log_in">登录</string>-->
+<!--    <string name="attendance_page">考勤页面</string>-->
+<!--    <string name="add_students">添加学生</string>-->
+<!--    <string name="add_attendance">添加考勤</string>-->
+<!--    <string name="student_login">学生登录</string>-->
+<!--    <string name="reset">重置</string>-->
+<!--    <string name="teacher_login">教师登录</string>-->
+<!--    <string name="please_enter_the_course_name">请输入课程名称</string>-->
+<!--    <string name="starttime">开始时间</string>-->
+<!--    <string name="endtime">结束时间</string>-->
+<!--    <string name="add_course">添加课程</string>-->
+
+    <string name="administrators">Administrator</string>
+    <string name="teacher">Teacher</string>
+    <string name="student">Student</string>
+    <string name="please_add_an_account">Please add an account</string>
+    <string name="please_add_a_password">Please add a password</string>
+    <string name="please_enter_the_student_id">Please enter the student ID</string>
+    <string name="add_user">Add User</string>
+    <string name="please_enter_an_account">Please enter an account</string>
+    <string name="please_enter_the_password">Please enter the password</string>
+    <string name="log_in">log in</string>
+    <string name="attendance_page">Attendance page</string>
+    <string name="add_students">Add Students</string>
+    <string name="add_attendance">Add Attendance</string>
+    <string name="student_login">Student login</string>
+    <string name="reset">Reset</string>
+    <string name="teacher_login">Teacher login</string>
+    <string name="please_enter_the_course_name">Please enter the course name</string>
+    <string name="starttime">StartTime</string>
+    <string name="endtime">EndTime</string>
+    <string name="add_course">Add course</string>
+
+</resources>

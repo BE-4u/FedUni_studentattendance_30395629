@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="@string/app_name"
+            tools:ignore="MissingConstraints"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:background="@color/teal_700"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/rgManage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rbAuthen"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/administrators"/>
+
+                    <RadioButton
+                        android:id="@+id/rbTeacher"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/teacher"/>
+
+                    <RadioButton
+                        android:id="@+id/rbStudent"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/student"/>
+
+                </RadioGroup>
+
+                <EditText
+                    android:id="@+id/etAddAccount"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:hint="@string/please_add_an_account"/>
+
+                <EditText
+                    android:id="@+id/etAddPwd"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="20dp"
+                    android:hint="@string/please_add_a_password"/>
+
+                <EditText
+                    android:id="@+id/etStudentNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="20dp"
+                    android:hint="@string/please_enter_the_student_id"
+                    android:visibility="gone"/>
+
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btAdd"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/add_user"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvShowManage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
